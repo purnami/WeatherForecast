@@ -12,9 +12,6 @@ struct FormsView: View {
     @State private var selectedProvince: Province?
     @State private var selectedRegency: Regency?
     @State private var selectedDistrict: District?
-//    @State private var isListProvinceVisible: Bool = false
-//    @State private var isListRegencyVisible: Bool = false
-//    @State private var isListDistrictVisible: Bool = false
     @FocusState private var isTFProvinceFocused: Bool
     @FocusState private var isTFRegencyFocused: Bool
     @FocusState private var isTFDistrictFocused: Bool
